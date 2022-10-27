@@ -9,4 +9,15 @@
   --gray-900: #101828;
   --gray-200: #eaecf0;
   --gray-500: #667085;
+  --white: #fff;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+img {
+  display: block;
 }
