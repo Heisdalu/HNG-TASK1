@@ -1,0 +1,17 @@
+.button {
+    margin-left: auto;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+
+.ArrowIcon {
+    display: none;
+}

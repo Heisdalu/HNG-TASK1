@@ -1,0 +1,61 @@
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileContainer {
+  border-radius: 50%;
+  position: relative;
+}
+
+.hoverProfile {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  opacity: 0.75;
+  padding-bottom: 1rem;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.hoverProfile::after {
+  content: url("../../../public/assests/Icons/camera.svg");
+  position: absolute;
+  top: 57px;
+  opacity: 0;
+}
+
+.profileContainer:hover .hoverProfile {
+  background-color: #344054;
+  opacity: 0.75;
+}
+.profileContainer:hover .hoverProfile::after {
+  opacity: 1;
+}
+
+.headerTitle {
+  font-family: var(--Inter);
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin-top: 24px;
+  color: var(--gray-900);
+}
+
+.slack {
+  display: none;
+}
