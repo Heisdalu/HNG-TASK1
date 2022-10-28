@@ -10,7 +10,7 @@ const LinkSection = () => {
         url="https://training.zuri.team/"
         title="Zuri Team"
       />
-      <Link id="books" url="http://books.zuri.team" title="Zuri Books" />
+      <Link id="books" url="http://books.zuri.team" title="Zuri Bookshop" />
       <Link
         id="book__python"
         url="https://books.zuri.team/python-for-beginners?ref_id=Dalu"
@@ -19,12 +19,12 @@ const LinkSection = () => {
       <Link
         id="pitch"
         url="https://background.zuri.team"
-        title="Background Check for Coders"
+        title="Tech Talent Hunt"
       />
       <Link
         id="book__design"
         url="https://books.zuri.team/design-rules"
-        title="Design Books"
+        title="Design Library"
       />
 
       <div className={style.socialMediaLink}>
