@@ -12,7 +12,7 @@ const Header = () => {
           <img
             src={Anette_Pic}
             className={style.profile_pic}
-            alt="Annette Black Selfie"
+            alt="divine obi Selfie"
             id="profile__img"
           />
         </figure>
