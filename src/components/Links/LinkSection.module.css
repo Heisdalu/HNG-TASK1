@@ -1,0 +1,24 @@
+.navigationLink {
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  /* gap: 24px; */
+}
+
+.navigationLink > * + * {
+  margin-top: 24px;
+}
+
+.socialMediaLink {
+    border: 1px solid;
+    display: flex;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialLink {
+    margin-right: 1.5rem;
+}
