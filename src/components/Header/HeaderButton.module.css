@@ -1,29 +1,73 @@
 .button {
-    margin-left: auto;
-    height: 40px;
-    width: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px dashed #D0D5DD;
-    border-radius: 20px;
-    position: absolute;
-    top: -20px;
-    right: 0;
+  cursor: pointer;
+  margin-left: auto;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed #d0d5dd;
+  border-radius: 20px;
+  position: absolute;
+  top: -20px;
+  right: 0;
+}
+
+.button:active {
+  background-color: gray(--gray-300);
+  border-color: gray(--gray-300);
+}
+
+.tooltip {
+  position: absolute;
+  right: 140%;
+  border: 1px solid;
+  width: 100px;
+  padding: 0.7rem 0;
+  display: block;
+  background-color: var(--gray-900);
+  color: var(--white);
+  border-radius: 8px;
+  display: none;
+  font-weight: 500;
+  font-family: var(--Inter);
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 0;
+  width: 0;
+  top: 50%;
+  transform: translate(-11px, -50%);
+  left: 100%;
+  border-top: 10px solid transparent;
+  border-left: 20px solid var(--gray-900);
+  border-bottom: 10px solid transparent;
 }
 
 .ArrowIcon {
-    display: none;
+  display: none;
 }
 
-@media screen and (min-width:768px) {
-    .dotIcon {
-        display: none;
-    }
+@media screen and (min-width: 768px) {
+  .dotIcon {
+    display: none;
+  }
 
-    .ArrowIcon {
-        display: block;
-    }
+  .ArrowIcon {
+    display: block;
+  }
+}
 
-    
+@media screen and (hover: hover) {
+  .button:hover {
+    background-color: var(--gray-300);
+    border-color: var(--gray-300);
+  }
+
+  .button:hover .tooltip {
+    display: block;
+  }
 }
