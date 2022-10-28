@@ -1,6 +1,6 @@
 import style from "./Header.module.css";
 import HeaderButton from "./HeaderButton";
-import Anette_Pic from "../../../public/assests/Img/profile__img.png";
+import Anette_Pic from "../../../public/assests/Img/Divine_Obi.png";
 
 const Header = () => {
   return (

@@ -17,7 +17,17 @@
 .profileContainer {
   border-radius: 50%;
   position: relative;
+  height: 90px;
+  width: 90px;
 }
+
+.profileContainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+
 
 .hoverProfile {
   position: absolute;
