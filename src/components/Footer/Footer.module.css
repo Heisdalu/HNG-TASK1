@@ -12,7 +12,6 @@
   font-weight: 400;
   font-family: var(--Inter);
   font-size: 0.8rem;
-  text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
