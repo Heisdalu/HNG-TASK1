@@ -14,3 +14,22 @@
   font-size: 0.8rem;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .zuriLogo {
+    margin-right: auto;
+  }
+
+  .footerText {
+    font-size: 1rem;
+  }
+  .ingressive {
+    margin-left: auto;
+  }
+}

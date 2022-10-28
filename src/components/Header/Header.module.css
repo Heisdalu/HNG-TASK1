@@ -73,4 +73,8 @@
     max-width: 700px;
     margin: 0 auto;
   }
+
+  .headerTitle {
+    font-size: 1.25rem;
+  }
 }
