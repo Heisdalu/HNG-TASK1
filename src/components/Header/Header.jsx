@@ -16,9 +16,7 @@ const Header = () => {
             id="profile__img"
           />
         </figure>
-        <h1 className={style.headerTitle} id="twitter">
-         Divine Obi
-        </h1>
+        <h1 className={style.headerTitle}>Divine Obi</h1>
         <p id="slack" className={style.slack}>
           Dalu
         </p>
