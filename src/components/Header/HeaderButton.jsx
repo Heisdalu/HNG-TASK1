@@ -1,19 +1,13 @@
 import style from "./HeaderButton.module.css";
+import dotIcon from "../../../public/assests/Icons/Icon.svg";
+import arrowIcon from "../../../public/assests/Icons/Arrow.svg";
 
 const HeaderButton = () => {
   return (
     <button className={style.button}>
       <span className={style.tooltip}>Share Link</span>
-      <img
-        src="../../../public/assests/Icons/Icon.svg"
-        className={style.dotIcon}
-        alt=""
-      />
-      <img
-        src="../../../public/assests/Icons/Arrow.svg"
-        className={style.ArrowIcon}
-        alt="share icon"
-      />
+      <img src={dotIcon} className={style.dotIcon} alt="" />
+      <img src={arrowIcon} className={style.ArrowIcon} alt="share icon" />
     </button>
   );
 };

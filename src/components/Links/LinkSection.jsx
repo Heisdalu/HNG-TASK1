@@ -1,5 +1,7 @@
 import Link from "./Link";
 import style from "./LinkSection.module.css";
+import slack from "../../../public/assests/Img/slack.png";
+import github from "../../../public/assests/Icons/github.svg";
 
 const LinkSection = () => {
   return (
@@ -29,13 +31,10 @@ const LinkSection = () => {
 
       <div className={style.socialMediaLink}>
         <a href="https://hng9.slack.com/" className={style.socialLink}>
-          <img src="../../../public/assests/Img/slack.png" alt="slack link" />
+          <img src={slack} alt="slack link" />
         </a>
         <a href="https://github.com/Heisdalu">
-          <img
-            src="../../../public/assests/Icons/github.svg"
-            alt="github link"
-          />
+          <img src={github} alt="github link" />
         </a>
       </div>
     </nav>
