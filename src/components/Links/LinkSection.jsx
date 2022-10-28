@@ -37,7 +37,6 @@ const LinkSection = () => {
             alt="github link"
           />
         </a>
-        <a href=""></a>
       </div>
     </nav>
   );
