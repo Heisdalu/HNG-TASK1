@@ -3,8 +3,15 @@ import Checkbox from "./Form_components/Checkbox";
 import style from "./FormDetail.module.css";
 import Input from "./Form_components/Input";
 import TextArea from "./Form_components/TextArea";
+import { useState } from "react";
 
 const FormDetail = () => {
+  const [active, setActive] = useState(false);
+
+  const submit = () => {
+    setActive(true);
+  };
+
   return (
     <main className={style.main}>
       <form className={style.form}>
@@ -27,9 +34,9 @@ const FormDetail = () => {
           placeholder="yourname@email.com"
         />
 
-        <TextArea />
+        <TextArea submitted={active} />
         <Checkbox />
-        <Button />
+        <Button submit={submit} />
       </form>
     </main>
   );

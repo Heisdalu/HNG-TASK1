@@ -1,8 +1,10 @@
 import style from "./Button.module.css";
 
-const Button = () => {
+const Button = (props) => {
+  
   const submit = (e) => {
     e.preventDefault();
+    props.submit();
   };
 
   return (
