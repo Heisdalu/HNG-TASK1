@@ -2,7 +2,6 @@
   border: 1px solid;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
 }
 
 .headerTitle {
@@ -13,6 +12,7 @@
 }
 
 .headerText {
+  margin-top: 1rem;
   font-size: 1.125rem;
   font-weight: 400;
   font-family: var(--Inter);
