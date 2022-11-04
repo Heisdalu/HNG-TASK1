@@ -1,7 +1,7 @@
 .checkbox {
-  /* border: 1px solid; */
   display: flex;
   align-items: flex-start;
+  cursor: pointer;
 }
 
 .checkBox__input {
@@ -14,14 +14,21 @@
   background-color: red;
 }
 .checkBoxLabel {
-    font-size: 1rem;
-    line-height: 24px;
-    font-family: var(--Inter);
-    font-weight: 400;
-    color: var(--gray-600);
+  font-size: 1rem;
+  line-height: 24px;
+  font-family: var(--Inter);
+  font-weight: 400;
+  color: var(--gray-600);
+  cursor: pointer;
 }
 
-
 .checkBoxLabel:checked {
-    background-color: #ff0000;
+  background-color: #ff0000;
+}
+
+@media screen and (min-width: 768px) {
+  .checkbox {
+    grid-area: 4/1/4/3;
+    place-items: center;
+  }
 }

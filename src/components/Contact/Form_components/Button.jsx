@@ -6,7 +6,12 @@ const Button = () => {
   };
 
   return (
-    <button type="submit" className={style.button} onClick={submit}>
+    <button
+      type="submit"
+      id="btn__submit"
+      className={style.button}
+      onClick={submit}
+    >
       Send message
     </button>
   );

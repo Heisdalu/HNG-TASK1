@@ -4,7 +4,7 @@ import FormHeader from "./Form_components/FormHeader";
 
 const Form = () => {
   return (
-    <div className={style["form__container"]}>
+    <div className={style.formContainer}>
       <FormHeader />
       <FormDetail />
     </div>
