@@ -2,6 +2,7 @@ import DevLink from "./Link";
 import style from "./LinkSection.module.css";
 import slack from "../../../public/assests/Img/slack.png";
 import github from "../../../public/assests/Icons/github.svg";
+import { Link } from "react-router-dom";
 
 const LinkSection = () => {
   return (
@@ -40,6 +41,10 @@ const LinkSection = () => {
         title="Design Library"
         info="Get a free design book here."
       />
+
+      <Link to="/contact" id="contact" className={style.link}>
+        Contact Me
+      </Link>
 
       <div className={style.socialMediaLink}>
         <a href="https://hng9.slack.com/" className={style.socialLink}>
