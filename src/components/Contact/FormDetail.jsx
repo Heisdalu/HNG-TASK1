@@ -1,8 +1,8 @@
-import Button from "./Button";
-import Checkbox from "./Checkbox";
+import Button from "./Form_components/Button";
+import Checkbox from "./Form_components/Checkbox";
 import style from "./FormDetail.module.css";
-import Input from "./Input";
-import TextArea from "./TextArea";
+import Input from "./Form_components/Input";
+import TextArea from "./Form_components/TextArea";
 
 const FormDetail = () => {
   return (
@@ -28,8 +28,8 @@ const FormDetail = () => {
         />
 
         <TextArea />
-              <Checkbox />
-              <Button />
+        <Checkbox />
+        <Button />
       </form>
     </main>
   );
