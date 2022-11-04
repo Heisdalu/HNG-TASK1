@@ -1,0 +1,27 @@
+.checkbox {
+  /* border: 1px solid; */
+  display: flex;
+  align-items: flex-start;
+}
+
+.checkBox__input {
+  margin-right: 20px;
+  height: 20px;
+  width: 32.5px;
+  background: #ffffff;
+  border: 1px solid var(--gray-300);
+  border-radius: 6px;
+  background-color: red;
+}
+.checkBoxLabel {
+    font-size: 1rem;
+    line-height: 24px;
+    font-family: var(--Inter);
+    font-weight: 400;
+    color: var(--gray-600);
+}
+
+
+.checkBoxLabel:checked {
+    background-color: #ff0000;
+}
