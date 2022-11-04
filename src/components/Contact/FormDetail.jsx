@@ -1,5 +1,6 @@
 import style from "./FormDetail.module.css";
 import Input from "./Input";
+import TextArea from "./TextArea";
 
 const FormDetail = () => {
   return (
@@ -22,6 +23,8 @@ const FormDetail = () => {
         type="email"
         placeholder="yourname@email.com"
       />
+
+      <TextArea />
     </main>
   );
 };
